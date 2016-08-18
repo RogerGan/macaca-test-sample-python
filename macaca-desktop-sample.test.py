@@ -14,13 +14,13 @@ server_url = {
 
 class MacacaTest(unittest.TestCase):
     @classmethod
-    def setUpClass(self):
-        self.driver = WebDriver(desired_caps, server_url)
-        self.driver.init()
+    def setUpClass(cls):
+        cls.driver = WebDriver(desired_caps, server_url)
+        cls.driver.init()
 
     @classmethod
-    def tearDownClass(self):
-        self.driver.quit()
+    def tearDownClass(cls):
+        cls.driver.quit()
 
     def test_get_url(self):
         self.driver                     \
