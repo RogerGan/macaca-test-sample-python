@@ -19,3 +19,12 @@ $ pip install -r requirements.txt
 $ macaca server
 $ python macaca-desktop-sample.test.py
 ```
+
+## App Source Code
+
+- [ios-app-bootstrap](//github.com/xudafeng/ios-app-bootstrap)
+- [android-app-bootstrap](//github.com/xudafeng/android-app-bootstrap)
+
+## License
+
+The MIT License (MIT)
