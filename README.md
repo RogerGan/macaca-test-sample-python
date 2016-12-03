@@ -17,7 +17,7 @@ $ pip install -r requirements.txt
 
 ```shell
 $ macaca server
-$ python macaca-desktop-sample.test.py
+$ python tests/macaca-desktop-sample.test.py
 ```
 
 ## App Source Code
